@@ -7,6 +7,8 @@
 //
 
 #import "UIViewAppDelegate.h"
+#import "LayoutTest.h"
+
 
 @implementation UIViewAppDelegate
 
@@ -40,7 +42,19 @@
     NSLog(@"x = %f", label.center.x);
     NSLog(@"y = %f", label.center.y);
     
-    [self.window addSubview:label];
+    //[self.window addSubview:label];
+    
+    
+    LayoutTest *layoutText = [[LayoutTest alloc] init];
+    [self.window addSubview:layoutText];
+    [layoutText release];
+    
+    
+//    UIView *child1 = (UIView *)[layoutText.subviews objectAtIndex:0];
+//    child1.frame = CGRectMake(0, 0, 160, 160);
+//    child1.center = layoutText.center;
+//    //[layoutText setNeedsLayout];
+//    [layoutText layoutIfNeeded];
     
     [self.window makeKeyAndVisible];
     return YES;

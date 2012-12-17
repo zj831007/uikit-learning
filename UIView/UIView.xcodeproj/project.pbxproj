@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D000CCE9167F5CED004D3CAA /* LayoutTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D000CCE8167F5CED004D3CAA /* LayoutTest.m */; };
 		D0011C83167E154000C6CB30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0011C82167E154000C6CB30 /* UIKit.framework */; };
 		D0011C85167E154000C6CB30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0011C84167E154000C6CB30 /* Foundation.framework */; };
 		D0011C87167E154000C6CB30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0011C86167E154000C6CB30 /* CoreGraphics.framework */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D000CCE7167F5CED004D3CAA /* LayoutTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutTest.h; sourceTree = "<group>"; };
+		D000CCE8167F5CED004D3CAA /* LayoutTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutTest.m; sourceTree = "<group>"; };
 		D0011C7E167E154000C6CB30 /* UIView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0011C82167E154000C6CB30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D0011C84167E154000C6CB30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +89,8 @@
 				D0011C89167E154000C6CB30 /* Supporting Files */,
 				D0011C9F167E1F2900C6CB30 /* DoubleLabel.h */,
 				D0011CA0167E1F2900C6CB30 /* DoubleLabel.m */,
+				D000CCE7167F5CED004D3CAA /* LayoutTest.h */,
+				D000CCE8167F5CED004D3CAA /* LayoutTest.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				D0011C8F167E154000C6CB30 /* main.m in Sources */,
 				D0011C93167E154000C6CB30 /* UIViewAppDelegate.m in Sources */,
 				D0011CA1167E1F2900C6CB30 /* DoubleLabel.m in Sources */,
+				D000CCE9167F5CED004D3CAA /* LayoutTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +285,7 @@
 				D0011C9E167E154000C6CB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
