@@ -18,6 +18,7 @@
 		D000CD11167F697F004D3CAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D000CD10167F697F004D3CAA /* Default-568h@2x.png */; };
 		D000CD19167F6A03004D3CAA /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = D000CD18167F6A03004D3CAA /* ViewController1.m */; };
 		D000CD1C167F6D23004D3CAA /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D000CD1B167F6D23004D3CAA /* ViewController2.m */; };
+		D000CD21167F7477004D3CAA /* MultiViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D000CD20167F7477004D3CAA /* MultiViewAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		D000CD18167F6A03004D3CAA /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		D000CD1A167F6D23004D3CAA /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		D000CD1B167F6D23004D3CAA /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		D000CD1F167F7466004D3CAA /* MultiViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiViewAppDelegate.h; sourceTree = "<group>"; };
+		D000CD20167F7477004D3CAA /* MultiViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiViewAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 		D000CD00167F697F004D3CAA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D000CD1F167F7466004D3CAA /* MultiViewAppDelegate.h */,
+				D000CD20167F7477004D3CAA /* MultiViewAppDelegate.m */,
 				D000CD09167F697F004D3CAA /* ViewControllerAppDelegate.h */,
 				D000CD0A167F697F004D3CAA /* ViewControllerAppDelegate.m */,
 				D000CD01167F697F004D3CAA /* Supporting Files */,
@@ -179,6 +184,7 @@
 				D000CD0B167F697F004D3CAA /* ViewControllerAppDelegate.m in Sources */,
 				D000CD19167F6A03004D3CAA /* ViewController1.m in Sources */,
 				D000CD1C167F6D23004D3CAA /* ViewController2.m in Sources */,
+				D000CD21167F7477004D3CAA /* MultiViewAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,17 @@
 
 @implementation ViewController2
 
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        self.title = @"GOod";
+        self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Justin" image:nil tag:1];
+    }
+    return self;
+}
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

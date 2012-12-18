@@ -14,6 +14,18 @@
 
 @implementation ViewController1
 
+
+- (id) init
+{
+    self = [super init];
+    if (self) {
+        self.title = @"Hello";
+        self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"Hello" image:nil tag:0] autorelease];
+        
+    }
+    return self;
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -49,6 +61,9 @@
     
     [button addTarget:self action:@selector(buttonDidPush) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    
+    
+    
     
     
 }
