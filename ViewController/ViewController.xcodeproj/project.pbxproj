@@ -19,6 +19,8 @@
 		D000CD19167F6A03004D3CAA /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = D000CD18167F6A03004D3CAA /* ViewController1.m */; };
 		D000CD1C167F6D23004D3CAA /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D000CD1B167F6D23004D3CAA /* ViewController2.m */; };
 		D000CD21167F7477004D3CAA /* MultiViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D000CD20167F7477004D3CAA /* MultiViewAppDelegate.m */; };
+		D000CD281680B7A7004D3CAA /* TopMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D000CD271680B7A7004D3CAA /* TopMenuController.m */; };
+		D000CD2C1680C0A1004D3CAA /* ModalDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = D000CD2B1680C0A1004D3CAA /* ModalDialog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,10 @@
 		D000CD1B167F6D23004D3CAA /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		D000CD1F167F7466004D3CAA /* MultiViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiViewAppDelegate.h; sourceTree = "<group>"; };
 		D000CD20167F7477004D3CAA /* MultiViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiViewAppDelegate.m; sourceTree = "<group>"; };
+		D000CD261680B7A7004D3CAA /* TopMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMenuController.h; sourceTree = "<group>"; };
+		D000CD271680B7A7004D3CAA /* TopMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuController.m; sourceTree = "<group>"; };
+		D000CD2A1680C0A1004D3CAA /* ModalDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalDialog.h; sourceTree = "<group>"; };
+		D000CD2B1680C0A1004D3CAA /* ModalDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalDialog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 		D000CCEB167F697F004D3CAA = {
 			isa = PBXGroup;
 			children = (
+				D000CD2A1680C0A1004D3CAA /* ModalDialog.h */,
+				D000CD2B1680C0A1004D3CAA /* ModalDialog.m */,
+				D000CD261680B7A7004D3CAA /* TopMenuController.h */,
+				D000CD271680B7A7004D3CAA /* TopMenuController.m */,
 				D000CD17167F6A03004D3CAA /* ViewController1.h */,
 				D000CD18167F6A03004D3CAA /* ViewController1.m */,
 				D000CD1A167F6D23004D3CAA /* ViewController2.h */,
@@ -185,6 +195,8 @@
 				D000CD19167F6A03004D3CAA /* ViewController1.m in Sources */,
 				D000CD1C167F6D23004D3CAA /* ViewController2.m in Sources */,
 				D000CD21167F7477004D3CAA /* MultiViewAppDelegate.m in Sources */,
+				D000CD281680B7A7004D3CAA /* TopMenuController.m in Sources */,
+				D000CD2C1680C0A1004D3CAA /* ModalDialog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +303,7 @@
 				D000CD16167F697F004D3CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "MultiViewAppDelegate.h"
+#import "TopMenuController.h"
 
 @implementation MultiViewAppDelegate
 @synthesize rootController = rootController_;
@@ -25,15 +26,18 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    rootController_ = [[UITabBarController alloc] init];
+//    rootController_ = [[UITabBarController alloc] init];
+//    
+//    
+//    ViewController1 *tab1 = [[ViewController1 alloc] init];
+//    ViewController2 *tab2 = [[ViewController2 alloc] init];
+//    
+//    NSArray *tabs = [NSArray arrayWithObjects:tab1, tab2, nil];
+//    
+//    [(UITabBarController *)rootController_ setViewControllers:tabs];
     
-    
-    ViewController1 *tab1 = [[ViewController1 alloc] init];
-    ViewController2 *tab2 = [[ViewController2 alloc] init];
-    
-    NSArray *tabs = [NSArray arrayWithObjects:tab1, tab2, nil];
-    
-    [(UITabBarController *)rootController_ setViewControllers:tabs];
+    TopMenuController *topMenu = [[[TopMenuController alloc] init] autorelease];
+    rootController_ = [[UINavigationController alloc] initWithRootViewController:topMenu];
     
     
     [self.window addSubview:rootController_.view];
