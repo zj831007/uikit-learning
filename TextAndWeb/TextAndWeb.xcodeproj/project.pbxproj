@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E4D38F16855262009382EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E4D38E16855262009382EE /* UIKit.framework */; };
+		D0E4D39116855262009382EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E4D39016855262009382EE /* Foundation.framework */; };
+		D0E4D39316855262009382EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E4D39216855262009382EE /* CoreGraphics.framework */; };
+		D0E4D39916855262009382EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0E4D39716855262009382EE /* InfoPlist.strings */; };
+		D0E4D39B16855262009382EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E4D39A16855262009382EE /* main.m */; };
+		D0E4D39F16855263009382EE /* TextAndWebAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E4D39E16855263009382EE /* TextAndWebAppDelegate.m */; };
+		D0E4D3A116855263009382EE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E4D3A016855263009382EE /* Default.png */; };
+		D0E4D3A316855263009382EE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E4D3A216855263009382EE /* Default@2x.png */; };
+		D0E4D3A516855263009382EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E4D3A416855263009382EE /* Default-568h@2x.png */; };
+		D0E4D3AD1685548A009382EE /* EditableTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E4D3AC1685548A009382EE /* EditableTextViewViewController.m */; };
+		D0E4D3B016855C9F009382EE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E4D3AF16855C9F009382EE /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0E4D38A16855262009382EE /* TextAndWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextAndWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E4D38E16855262009382EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0E4D39016855262009382EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0E4D39216855262009382EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0E4D39616855262009382EE /* TextAndWeb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextAndWeb-Info.plist"; sourceTree = "<group>"; };
+		D0E4D39816855262009382EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0E4D39A16855262009382EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0E4D39C16855263009382EE /* TextAndWeb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextAndWeb-Prefix.pch"; sourceTree = "<group>"; };
+		D0E4D39D16855263009382EE /* TextAndWebAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextAndWebAppDelegate.h; sourceTree = "<group>"; };
+		D0E4D39E16855263009382EE /* TextAndWebAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextAndWebAppDelegate.m; sourceTree = "<group>"; };
+		D0E4D3A016855263009382EE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D0E4D3A216855263009382EE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D0E4D3A416855263009382EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D0E4D3AB1685548A009382EE /* EditableTextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableTextViewViewController.h; sourceTree = "<group>"; };
+		D0E4D3AC1685548A009382EE /* EditableTextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableTextViewViewController.m; sourceTree = "<group>"; };
+		D0E4D3AE16855C9F009382EE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		D0E4D3AF16855C9F009382EE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E4D38716855262009382EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E4D38F16855262009382EE /* UIKit.framework in Frameworks */,
+				D0E4D39116855262009382EE /* Foundation.framework in Frameworks */,
+				D0E4D39316855262009382EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E4D37F16855262009382EE = {
+			isa = PBXGroup;
+			children = (
+				D0E4D39416855262009382EE /* TextAndWeb */,
+				D0E4D38D16855262009382EE /* Frameworks */,
+				D0E4D38B16855262009382EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E4D38B16855262009382EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E4D38A16855262009382EE /* TextAndWeb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E4D38D16855262009382EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E4D38E16855262009382EE /* UIKit.framework */,
+				D0E4D39016855262009382EE /* Foundation.framework */,
+				D0E4D39216855262009382EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0E4D39416855262009382EE /* TextAndWeb */ = {
+			isa = PBXGroup;
+			children = (
+				D0E4D39D16855263009382EE /* TextAndWebAppDelegate.h */,
+				D0E4D39E16855263009382EE /* TextAndWebAppDelegate.m */,
+				D0E4D3AE16855C9F009382EE /* WebViewController.h */,
+				D0E4D3AF16855C9F009382EE /* WebViewController.m */,
+				D0E4D39516855262009382EE /* Supporting Files */,
+				D0E4D3AB1685548A009382EE /* EditableTextViewViewController.h */,
+				D0E4D3AC1685548A009382EE /* EditableTextViewViewController.m */,
+			);
+			path = TextAndWeb;
+			sourceTree = "<group>";
+		};
+		D0E4D39516855262009382EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E4D39616855262009382EE /* TextAndWeb-Info.plist */,
+				D0E4D39716855262009382EE /* InfoPlist.strings */,
+				D0E4D39A16855262009382EE /* main.m */,
+				D0E4D39C16855263009382EE /* TextAndWeb-Prefix.pch */,
+				D0E4D3A016855263009382EE /* Default.png */,
+				D0E4D3A216855263009382EE /* Default@2x.png */,
+				D0E4D3A416855263009382EE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E4D38916855262009382EE /* TextAndWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E4D3A816855263009382EE /* Build configuration list for PBXNativeTarget "TextAndWeb" */;
+			buildPhases = (
+				D0E4D38616855262009382EE /* Sources */,
+				D0E4D38716855262009382EE /* Frameworks */,
+				D0E4D38816855262009382EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextAndWeb;
+			productName = TextAndWeb;
+			productReference = D0E4D38A16855262009382EE /* TextAndWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E4D38116855262009382EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TextAndWeb;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = jian;
+			};
+			buildConfigurationList = D0E4D38416855262009382EE /* Build configuration list for PBXProject "TextAndWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0E4D37F16855262009382EE;
+			productRefGroup = D0E4D38B16855262009382EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E4D38916855262009382EE /* TextAndWeb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E4D38816855262009382EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E4D39916855262009382EE /* InfoPlist.strings in Resources */,
+				D0E4D3A116855263009382EE /* Default.png in Resources */,
+				D0E4D3A316855263009382EE /* Default@2x.png in Resources */,
+				D0E4D3A516855263009382EE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E4D38616855262009382EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E4D39B16855262009382EE /* main.m in Sources */,
+				D0E4D39F16855263009382EE /* TextAndWebAppDelegate.m in Sources */,
+				D0E4D3AD1685548A009382EE /* EditableTextViewViewController.m in Sources */,
+				D0E4D3B016855C9F009382EE /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0E4D39716855262009382EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E4D39816855262009382EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E4D3A616855263009382EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0E4D3A716855263009382EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E4D3A916855263009382EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextAndWeb/TextAndWeb-Prefix.pch";
+				INFOPLIST_FILE = "TextAndWeb/TextAndWeb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0E4D3AA16855263009382EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextAndWeb/TextAndWeb-Prefix.pch";
+				INFOPLIST_FILE = "TextAndWeb/TextAndWeb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E4D38416855262009382EE /* Build configuration list for PBXProject "TextAndWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E4D3A616855263009382EE /* Debug */,
+				D0E4D3A716855263009382EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E4D3A816855263009382EE /* Build configuration list for PBXNativeTarget "TextAndWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E4D3A916855263009382EE /* Debug */,
+				D0E4D3AA16855263009382EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E4D38116855262009382EE /* Project object */;
+}
